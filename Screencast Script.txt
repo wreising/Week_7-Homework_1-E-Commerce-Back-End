@@ -1,0 +1,48 @@
+GET localhost:3000/api/categores
+
+POST localhost:3000/api/categores
+
+{
+  "category_name": "hoodies"
+}
+
+GET localhost:3000/api/categores
+
+PUT localhost:3000/api/categories/6
+
+{
+  "category_name": "dark_hoodies"
+}
+
+GET localhost:3000/api/categores
+
+DELETE localhost:3000/api/categories/6
+
+GET localhost:3000/api/categores
+
+___________
+
+GET localhost:3000/api/products
+
+POST localhost:3000/api/products
+
+ {
+      product_name: "new-prod",
+      price: 200.00,
+      stock: 3,
+      tagIds: [1, 2, 3, 4]
+    }
+
+GET localhost:3000/api/products
+
+PUT localhost:3000/api/products/
+
+{
+  "product_name": "dark_logo"
+}
+
+GET localhost:3000/api/categores
+
+DELETE localhost:3000/api/categories/6
+
+GET localhost:3000/api/categores
